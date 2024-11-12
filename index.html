@@ -62,6 +62,21 @@
     </style>
 </head>
 
+<!-- lucky draw master sdk -->
+<!-- Typescript types
+  https://cdn.defo.xyz/twa/lucky-twa-sdk.d.ts -->
+<script src=
+                "https://cdn.defo.xyz/twa/lucky-twa-sdk.js">
+</script>
+<script>
+    window.luckyTwaSdk.config({
+        token: 'pU81UUGTCL'
+    })
+    window.luckyTwaSdk.event('OpenMiniApp')
+    // get original startapp param
+    // const startapp = window.luckyTwaSdk.startapp()
+</script>
+
 <body>
     <main>
         <div align="center">
